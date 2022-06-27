@@ -39,7 +39,7 @@
             margin: 0;
          }
 
-         .img {
+         img {
             display: block;
             max-width: 100%;
             height: auto;
@@ -492,9 +492,7 @@
 }
              .box-content {
 
-              padding-left: 24px;
-              padding-right: 24px;
-              padding-bottom: 20px;
+              padding: 20px 24px;
               border-left: 1px solid var(--borders-box);
               border-right: 1px solid var(--borders-box);
               border-bottom: 1px solid var(--borders-box);
