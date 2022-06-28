@@ -176,6 +176,8 @@
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
+          max-width: 1600px;
+          margin:0 auto;
 
          }
          
@@ -403,9 +405,7 @@
              /* section clients */
              .clients-list {
               display: flex;
-              align-items: center;
-              justify-content: center;
-              align-content: center;
+              margin: 0;
               list-style: none;
               padding-inline-start: 0;
              }
@@ -555,9 +555,7 @@
              .footer-link:focus {
                  color: var(--accent-color);
              }
-             .footer-adress {
-              margin-right: 70px;
-             }
+             
              .join {
               display: inline-block;
               margin-bottom: 20px;
@@ -597,5 +595,8 @@
              .footer-link-icon:hover,
              .footer-link-icon:focus {
               background-color: var(--accent-color);
+             }
+             .footer-social {
+              margin-left: 70px;
              }
 
